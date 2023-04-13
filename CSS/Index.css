@@ -66,18 +66,16 @@ h1{
 }
 
 .jumbo-content{
-    position: relative;
     width: 100%;
     height: 100%;
 }
 
 .jumbo-info{
-    background-color: cyan;
     width: 30%;
-    height: 100%;
+    height: 95%;
     flex-direction: column;
     font-size: 1.02rem;
-
+    position: relative;
 }
 
 .jumbo-img{
@@ -93,5 +91,11 @@ h1{
 }
 
 .jumbo-info>button{
-    text-align: center;
+    margin: 20px 0;
+}
+
+.fa-arrow-down{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
 }
