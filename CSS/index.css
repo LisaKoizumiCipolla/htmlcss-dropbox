@@ -91,7 +91,6 @@ h1{
     height: 120%;
     width: 100%;
     object-fit: contain;
-    padding-right: 20px;
 }
 
 .jumbo-info>button{
@@ -107,7 +106,6 @@ h1{
 .main-container{
     margin: 0 auto;
     width: 55%;
-    height: 2100px;
 }
 
 h2{
@@ -165,6 +163,7 @@ a{
     width: 100%;
     border: 2px solid lightgray;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .Enterprise-alone>.plan-info{
@@ -179,4 +178,39 @@ a{
 
 .enterprise-text{
     width: 70%;
+}
+
+.dropbox-invite{
+    background-color: #0061ff;
+    width: 100%;
+    height: 560px;
+    margin-bottom: 70px;
+}
+
+.invite-img{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.invite-img>img{
+    width: 100%;
+}
+
+.invite-text{
+    margin-right: none;
+    width: 40%;
+    height: 100%;
+    background-color: red;
+    padding: 70px 55px;
+}
+
+.invite-text>button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.operation-container{
+    width: 100%;
 }
