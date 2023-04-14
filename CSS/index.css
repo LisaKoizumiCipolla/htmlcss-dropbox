@@ -42,7 +42,11 @@ button{
     color: white;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1rem;   
+    padding: 14px 20px;
+}
+
+.functioning>button{
     padding: 8px 15px;
 }
 
@@ -119,11 +123,11 @@ h2{
 
 .radio-buttons{
     margin-bottom: 50px;
+    font-size: 1.1rem;
 }
 
 .plan-container{
     width: 100%;
-    height: 1000px;
     justify-content: space-between;
 }
 
@@ -144,19 +148,54 @@ h2{
     margin: 40px auto;
 }
 
+.price{
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.plan-info>ul{
+    padding: 50px 0 20px;
+    font-size: 1rem;
+}
+
+.plan-info li{
+    margin-bottom: 20px;
+}
+
+
+.mese{
+    color: lightgray;
+    font-size: 1.05rem;
+}
+
+#acquista{
+    padding: 30px 0 40px;
+}
+
 a{
     color: #1a1aef;
     text-decoration: underline;
 }
 
-.plan-button{
+.plan-info>button{
     width: 100%;
+    padding: 30px auto;
 }
 
 .gray-line{
     height: 2px;
     width: 25%;
     background-color: #D6D7D7;
+}
+
+.plan-info>h4{
+    margin-top: 50px;
+}
+
+#plan-details{
+    padding: 30px 0;
+    font-size: 1.1rem;
 }
 
 .Enterprise-alone{
@@ -180,8 +219,17 @@ h3{
     justify-content: space-between;
 }
 
+#Enterprise-button{
+    padding: 0px 45px;
+    height: 50px;
+}
+
 .enterprise-text{
-    width: 70%;
+    width: 65%;
+}
+
+.contatta-top>h4{
+    padding: 20px 0;
 }
 
 .dropbox-invite{
@@ -203,10 +251,17 @@ h3{
     padding: 70px 55px;
 }
 
+.invite-text>p{
+    padding: 20px 0;
+    font-size: 1.15rem;
+}
+
 .invite-text>button{
     background-color: white;
     color: black;
     border: 2px solid black;
+    font-size: 1.1rem;
+    padding: 10px 16px;
 }
 
 .operation-container{
@@ -226,4 +281,5 @@ h3{
 
 .operation>p{
     font-size: 1.15rem;
+    padding: 20px 0;
 }
