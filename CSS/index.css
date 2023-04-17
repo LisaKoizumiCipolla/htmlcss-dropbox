@@ -196,12 +196,13 @@ h2{
 .plan-info>ul{
     padding: 30px 0 20px;
     font-size: 1rem;
+
 }
 
 .plan-info li{
     margin-bottom: 20px;
+    margin-left: -20px;
 }
-
 
 .mese{
     color: lightgray;
