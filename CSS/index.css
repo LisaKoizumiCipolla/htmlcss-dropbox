@@ -118,6 +118,7 @@ h1{
 
 #arrow{
     font-size: 3rem;
+    padding-bottom: 10px;
 }
 
 .main-container{
@@ -173,9 +174,12 @@ label{
 
 }
 
+.fa-ul>li{  
+    margin-left: -20px;
+}
+
 .plan-info li{
     margin-bottom: 20px;
-    margin-left: -20px;
 }
 
 .mese{
